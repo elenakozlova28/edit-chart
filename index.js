@@ -2,8 +2,6 @@
 const express = require('express');
 const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
 
-
-
 // Initialize express
 const app = express();
 const PORT = 3000;
