@@ -63,8 +63,6 @@ app.get('/chart/:type', async (req, res) => {
   }
 });
 
-
-
 // Route for the homepage
 app.get('/', (req, res) => {
   res.send(`
